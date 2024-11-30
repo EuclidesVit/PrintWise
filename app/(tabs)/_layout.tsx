@@ -3,15 +3,16 @@ import React from 'react';
 
 import { TabBarIcon } from '@/components/navigation/TabBarIcon';
 import { Colors } from '@/constants/Colors';
-import { useColorScheme } from '@/hooks/useColorScheme';
+import { useCustomColorScheme } from '@/hooks/useColorScheme';
+
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
+  const colorScheme = useCustomColorScheme();
 
   return (
     <Tabs
-      screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+       screenOptions={{
+        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint, // Corrigido para usar `colorScheme`
         headerShown: false,
       }}>
       <Tabs.Screen
@@ -24,11 +25,29 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="calculo"
         options={{
-          title: 'Explore',
+          title: 'Cálculo',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <TabBarIcon name={focused ? 'calculator' : 'calculator-outline'} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="impressora"
+        options={{
+          title: 'Impressora',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'print' : 'print-outline'} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="estoque"
+        options={{
+          title: 'Estoque',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'cube' : 'cube-outline'} color={color} />
           ),
         }}
       />
