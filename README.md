@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+Aplicativo Gamificado para Cálculo de Impressões 3D (PrintWise) 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Descrição do Projeto
+Este é um aplicativo desenvolvido com React Native e Expo para auxiliar usuários a calcular de forma gamificada o custo de material e tempo de impressões 3D. O app oferece funcionalidades práticas para gerenciar dados de estoque, configurar informações sobre a impressora, e calcular custos detalhados de cada impressão.
 
-## Get started
+Funcionalidades
+Gestão de Cálculo: Insira a quantidade de filamento usado, o tempo da impressão, e receba o custo total com base nos dados fornecidos.
+Estoque: Gerencie informações sobre seus filamentos, incluindo marca, tipo, peso e preço.
+Configuração da Impressora: Adicione informações como o consumo de energia (em watts) e o custo do kWh na sua região.
+Gamificação: Transforme a experiência de cálculo em algo divertido, acompanhando seus progressos e desafios.
+Tecnologias Utilizadas
+React Native
+Expo
+AsyncStorage: Para persistência de dados local.
+TypeScript: Para maior segurança e organização no código.
+Pré-requisitos
+Certifique-se de ter as seguintes ferramentas instaladas antes de executar o projeto:
 
-1. Install dependencies
+Node.js
+npm ou yarn
+Expo CLI
 
-   ```bash
-   npm install
-   ```
+Download do APK
+https://expo.dev/artifacts/eas/m6Pfy1WfPcdiQBz1JgpUuK.apk
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Licença
+Este projeto está sob a licença LogInformatica. Consulte o atendimentologinfo@gmail.com para mais detalhes.
