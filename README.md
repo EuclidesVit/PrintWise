@@ -8,13 +8,21 @@ Gestão de Cálculo: Insira a quantidade de filamento usado, o tempo da impress�
 Estoque: Gerencie informações sobre seus filamentos, incluindo marca, tipo, peso e preço.
 Configuração da Impressora: Adicione informações como o consumo de energia (em watts) e o custo do kWh na sua região.
 Gamificação: Transforme a experiência de cálculo em algo divertido, acompanhando seus progressos e desafios.
+
 Tecnologias Utilizadas
+
 React Native
+
 Expo
+
 AsyncStorage: Para persistência de dados local.
+
 TypeScript: Para maior segurança e organização no código.
+
 Pré-requisitos
+
 Certifique-se de ter as seguintes ferramentas instaladas antes de executar o projeto:
+
 
 Node.js
 npm ou yarn
